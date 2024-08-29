@@ -1,0 +1,50 @@
+.lti-platform-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+
+.lti-platform-modal.active {
+  display: block;
+}
+
+.lti-platform-modal-content {
+  background-color: #fef8ee;
+  margin: 10% auto;
+  padding: 0 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+}
+
+.chip-close {
+  cursor: pointer;
+  top: 50%;
+  right: 0%;
+  padding: 1px 4px;
+  transform: translate(0%, -50%);
+}
+
+.chip-close:hover {background: #bbb;}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.edit-trek-options {
+  cursor: pointer;
+  margin-top: 13%;
+}
